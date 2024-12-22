@@ -100,7 +100,7 @@ const DeviceControl = ({ modelPath }) => {
   return (
     <div ref={mountRef} style={{ 
       width: '100%', 
-      height: '16vh',
+      height: '240px',
       position: 'relative',
     }}></div>
   );
