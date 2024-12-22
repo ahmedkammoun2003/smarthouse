@@ -50,7 +50,7 @@ const DeviceControl = ({ modelPath }) => {
         model.position.y += 1.7; 
         const size = box.getSize(new THREE.Vector3());
         const maxDim = Math.max(size.x, size.y, size.z);
-        const scale = 4 / maxDim;
+        const scale = 3.5 / maxDim;
         model.scale.setScalar(scale);
         
         model.traverse((node) => {
